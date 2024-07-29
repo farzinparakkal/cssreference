@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    color: white;
+}
+header::before{
+    background: url("./art-3561710_640.jpg") center/cover;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    z-index: -1;
+}
+/* header::after{
+    background: url("./art-3561710_640.jpg") center/cover;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 0;
+    top: 0;
+} */
