@@ -1,0 +1,61 @@
+
+.container{
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    border: 1px solid orange;
+
+    /* offset-x offset-y color  */
+    box-shadow: 10px 10px green;
+
+    /* offset-x offset-y color, offset-x offset-y color  */
+    box-shadow: 8px 8px green,12px 12px lightsalmon;
+
+    /* offset-x offset-y blur-radius spread-radius color  */
+    box-shadow: 10px 10px 5px 5px green;
+
+    /* inner shadow  */
+    box-shadow: inset 10px 10px lightseagreen;
+
+    /* offset-x offset-y color  */
+    text-shadow: 5px 5px skyblue;
+
+    /* offset-x offset-y color, offset-x offset-y color  */
+    text-shadow: 5px 5px skyblue,8px 8px rgb(248, 248, 115);
+}
+
+
+.container1{
+    width: 90%;
+    height: 80px;
+    background-color: aquamarine;
+    align-content: center;
+    padding-left: 10px;
+}
+
+.c2box{
+    width: 10%;
+    height: 40px;
+    background-color: antiquewhite;
+    align-content: center;
+    animation-name: animation1;
+    animation-duration: 7s;
+    animation-iteration-count: 2;
+    animation-fill-mode: backwards;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    animation-direction: alternate;
+    animation-direction: reverse;
+}
+
+@keyframes animation1{
+    from{
+        width: 10%;
+    }
+    to{
+        width: 80%;
+    }
+}
