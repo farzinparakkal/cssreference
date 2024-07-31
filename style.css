@@ -1,0 +1,40 @@
+body{
+}
+
+.container1{
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    margin-top: 90px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.c2box{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    align-content: center;
+    /* transition-property: background-color; 
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;*/
+    transition-delay: 1s;
+    transition: all 5s ease-in-out;
+}
+
+.c2box:hover{
+    background-color: orange;
+    width: 100%;
+    height: 100%;
+    transform: rotate(54deg);
+    transform: rotate(54deg);
+    transform: rotate(54deg);
+    transform: skew(40deg);
+    transform: skew(-40deg);
+    transform: translateX(122px);
+    transform: translatey(123px);
+    transform: translate(150px,150px);
+}
+
